@@ -1,0 +1,374 @@
+{
+  "PARTNERS": [
+    {
+        "id": "partner_001",
+        "name": "Madeera Furniture",
+        "category": "furniture",
+        "type": "retail_chain",
+        "description": "Premium furniture store chain",
+        "active_since": "2020-01-01"
+    },
+    {
+        "id": "partner_002",
+        "name": "TechZone Electronics",
+        "category": "electronics",
+        "type": "electronics_store",
+        "description": "Latest technology and gadgets",
+        "active_since": "2019-06-15"
+    },
+    {
+        "id": "partner_003",
+        "name": "SportMax",
+        "category": "sports",
+        "type": "sports_store",
+        "description": "Sports equipment and apparel",
+        "active_since": "2021-03-10"
+    },
+    {
+        "id": "partner_004",
+        "name": "FreshMart Supermarket",
+        "category": "groceries",
+        "type": "supermarket",
+        "description": "Fresh groceries and daily essentials",
+        "active_since": "2018-01-01"
+    },
+    {
+        "id": "partner_005",
+        "name": "Fashion House",
+        "category": "clothing",
+        "type": "fashion_retail",
+        "description": "Trendy clothing and accessories",
+        "active_since": "2020-09-01"
+    },
+    {
+        "id": "partner_006",
+        "name": "HomeDecor Plus",
+        "category": "home_decor",
+        "type": "home_goods",
+        "description": "Home decoration and essentials",
+        "active_since": "2021-01-15"
+    }
+  ],
+  "MONTHLY_OFFERS": [
+    {
+        "id": "offer_001",
+        "partner_id": "partner_001",
+        "partner_name": "Madeera Furniture",
+        "campaign_name": "Black Friday Furniture Sale",
+        "description": "500 AZN üzeri mobilya alışverişinde %15 cashback",
+        "category": "furniture",
+        "subcategory": "all_furniture",
+        "conditions": {
+            "min_purchase": 500,
+            "discount_type": "cashback",
+            "discount_value": 15,
+            "max_cashback": 150
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 50000,
+        "target_customers": ["new_home_buyers", "renovators", "high_spenders"],
+        "seasonal": true,
+        "tags": ["furniture", "home", "luxury", "black_friday"],
+        "locations": ["Baku", "Sumqayit", "Ganja"],
+        "location_specific": false
+    },
+    {
+        "id": "offer_002",
+        "partner_id": "partner_001",
+        "partner_name": "Madeera Furniture",
+        "campaign_name": "Office Furniture Special",
+        "description": "Ofis mobilyalarında 300 AZN üzeri alışverişe %10 indirim",
+        "category": "furniture",
+        "subcategory": "office_furniture",
+        "conditions": {
+            "min_purchase": 300,
+            "discount_type": "instant_discount",
+            "discount_value": 10,
+            "max_discount": 80
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 25000,
+        "target_customers": ["businesses", "freelancers", "home_office"],
+        "seasonal": false,
+        "tags": ["furniture", "office", "work"],
+        "locations": ["Baku"],
+        "location_specific": false
+    },
+    
+    {
+        "id": "offer_003",
+        "partner_id": "partner_002",
+        "partner_name": "TechZone Electronics",
+        "campaign_name": "Smartphone Bonanza",
+        "description": "1000 AZN üzeri akıllı telefon alımında %12 cashback",
+        "category": "electronics",
+        "subcategory": "smartphones",
+        "conditions": {
+            "min_purchase": 1000,
+            "discount_type": "cashback",
+            "discount_value": 12,
+            "max_cashback": 200
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 80000,
+        "target_customers": ["tech_enthusiasts", "young_professionals", "students"],
+        "seasonal": false,
+        "tags": ["electronics", "smartphone", "technology"],
+        "locations": ["Baku", "Sumqayit"],
+        "location_specific": false
+    },
+    {
+        "id": "offer_004",
+        "partner_id": "partner_002",
+        "partner_name": "TechZone Electronics",
+        "campaign_name": "Laptop Winter Sale",
+        "description": "Laptop alımlarında 2000 AZN üzeri %15 indirim",
+        "category": "electronics",
+        "subcategory": "laptops",
+        "conditions": {
+            "min_purchase": 2000,
+            "discount_type": "instant_discount",
+            "discount_value": 15,
+            "max_discount": 400
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-12-31",
+        "monthly_budget": 100000,
+        "target_customers": ["students", "professionals", "gamers"],
+        "seasonal": true,
+        "tags": ["electronics", "laptop", "computer", "winter"],
+        "locations": ["Baku", "Ganja", "Sumqayit"],
+        "location_specific": false
+    },
+    
+    {
+        "id": "offer_005",
+        "partner_id": "partner_003",
+        "partner_name": "SportMax",
+        "campaign_name": "Winter Sports Gear",
+        "description": "Kış spor ekipmanlarında 200 AZN üzeri %20 cashback",
+        "category": "sports",
+        "subcategory": "winter_sports",
+        "conditions": {
+            "min_purchase": 200,
+            "discount_type": "cashback",
+            "discount_value": 20,
+            "max_cashback": 100
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-12-31",
+        "monthly_budget": 30000,
+        "target_customers": ["athletes", "fitness_enthusiasts", "outdoor_lovers"],
+        "seasonal": true,
+        "tags": ["sports", "winter", "outdoor", "fitness"],
+        "locations": ["Baku"],
+        "location_specific": false
+    },
+    {
+        "id": "offer_006",
+        "partner_id": "partner_003",
+        "partner_name": "SportMax",
+        "campaign_name": "Running Shoes Special",
+        "description": "Koşu ayakkabılarında 150 AZN üzeri %15 indirim",
+        "category": "sports",
+        "subcategory": "running_shoes",
+        "conditions": {
+            "min_purchase": 150,
+            "discount_type": "instant_discount",
+            "discount_value": 15,
+            "max_discount": 50
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 20000,
+        "target_customers": ["runners", "fitness_enthusiasts", "health_conscious"],
+        "seasonal": false,
+        "tags": ["sports", "running", "shoes", "fitness"],
+        "locations": ["Baku", "Sumqayit"],
+        "location_specific": false
+    },
+    
+    {
+        "id": "offer_007",
+        "partner_id": "partner_004",
+        "partner_name": "FreshMart Supermarket",
+        "campaign_name": "Weekly Shopping Bonus",
+        "description": "Haftalık 200 AZN üzeri market alışverişinde %8 cashback",
+        "category": "groceries",
+        "subcategory": "all_groceries",
+        "conditions": {
+            "min_purchase": 200,
+            "discount_type": "cashback",
+            "discount_value": 8,
+            "max_cashback": 40
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 150000,
+        "target_customers": ["families", "regular_shoppers", "all_customers"],
+        "seasonal": false,
+        "tags": ["groceries", "daily", "essentials"],
+        "locations": ["Baku", "Ganja", "Sumqayit", "Mingachevir"],
+        "location_specific": false
+    },
+    
+    {
+        "id": "offer_008",
+        "partner_id": "partner_005",
+        "partner_name": "Fashion House",
+        "campaign_name": "Winter Collection Launch",
+        "description": "Yeni kış koleksiyonunda 300 AZN üzeri %18 indirim",
+        "category": "clothing",
+        "subcategory": "winter_collection",
+        "conditions": {
+            "min_purchase": 300,
+            "discount_type": "instant_discount",
+            "discount_value": 18,
+            "max_discount": 120
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 60000,
+        "target_customers": ["fashion_lovers", "young_adults", "professionals"],
+        "seasonal": true,
+        "tags": ["fashion", "clothing", "winter", "new_collection"],
+        "locations": ["Baku"],
+        "location_specific": false
+    },
+    
+    {
+        "id": "offer_009",
+        "partner_id": "partner_006",
+        "partner_name": "HomeDecor Plus",
+        "campaign_name": "Home Makeover November",
+        "description": "Ev dekorasyonunda 250 AZN üzeri %12 cashback",
+        "category": "home_decor",
+        "subcategory": "all_decor",
+        "conditions": {
+            "min_purchase": 250,
+            "discount_type": "cashback",
+            "discount_value": 12,
+            "max_cashback": 75
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 40000,
+        "target_customers": ["homeowners", "decorators", "newly_married"],
+        "seasonal": false,
+        "tags": ["home", "decoration", "interior"],
+        "locations": ["Baku", "Sumqayit"],
+        "location_specific": false
+    },
+    
+    {
+        "id": "offer_010",
+        "partner_id": "partner_002",
+        "partner_name": "TechZone Electronics",
+        "campaign_name": "NEW BRANCH SPECIAL - Nasimi District",
+        "description": "Yeni Nasimi şubemizde ilk 3 alışverişe %25 cashback! Sadece Nasimi sakinleri için",
+        "category": "electronics",
+        "subcategory": "all_electronics",
+        "conditions": {
+            "min_purchase": 100,
+            "discount_type": "cashback",
+            "discount_value": 25,
+            "max_cashback": 150,
+            "max_uses": 3
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 30000,
+        "target_customers": ["nasimi_residents", "new_branch_customers"],
+        "seasonal": false,
+        "tags": ["electronics", "new_branch", "grand_opening", "nasimi"],
+        "locations": ["Baku"],
+        "location_specific": true,
+        "specific_districts": ["Nasimi", "Narimanov"],
+        "location_priority_boost": 40
+    },
+    
+    {
+        "id": "offer_011",
+        "partner_id": "partner_004",
+        "partner_name": "FreshMart Supermarket",
+        "campaign_name": "SUMQAYIT OPENING PROMO",
+        "description": "Yeni Sumqayıt şubemizde 150 AZN üzeri alışverişe %20 cashback",
+        "category": "groceries",
+        "subcategory": "all_groceries",
+        "conditions": {
+            "min_purchase": 150,
+            "discount_type": "cashback",
+            "discount_value": 20,
+            "max_cashback": 60
+        },
+        "valid_from": "2024-11-01",
+        "valid_until": "2024-11-30",
+        "monthly_budget": 45000,
+        "target_customers": ["sumqayit_residents", "families"],
+        "seasonal": false,
+        "tags": ["groceries", "new_branch", "sumqayit", "opening"],
+        "locations": ["Sumqayit"],
+        "location_specific": true,
+        "specific_districts": ["Sumqayit Center", "Sumqayit North"],
+        "location_priority_boost": 35
+    }
+  ],
+  "DEMO_USER": {
+    "id": "user_001",
+    "name": "Leyla Mammadova",
+    "email": "leyla@example.com",
+    "location": "Baku, Azerbaijan",
+    "district": "Nasimi",
+    "member_since": "2022-03-15",
+    "purchase_history": [
+        {
+            "date": "2024-10-15",
+            "partner": "TechZone Electronics",
+            "category": "electronics",
+            "subcategory": "smartphones",
+            "amount": 1200,
+            "items": ["iPhone 14 Pro"]
+        },
+        {
+            "date": "2024-10-20",
+            "partner": "SportMax",
+            "category": "sports",
+            "subcategory": "running_shoes",
+            "amount": 180,
+            "items": ["Nike Running Shoes"]
+        },
+        {
+            "date": "2024-09-05",
+            "partner": "TechZone Electronics",
+            "category": "electronics",
+            "subcategory": "laptops",
+            "amount": 2500,
+            "items": ["MacBook Pro"]
+        },
+        {
+            "date": "2024-10-25",
+            "partner": "FreshMart Supermarket",
+            "category": "groceries",
+            "amount": 250,
+            "items": ["Weekly groceries"]
+        }
+    ],
+    "preferences": {
+        "favorite_categories": ["electronics", "sports", "groceries"],
+        "brands": ["Apple", "Samsung", "Nike", "Adidas"],
+        "shopping_style": "tech_enthusiast",
+        "price_sensitivity": "medium",
+        "seasonal_interest": ["winter_sports", "technology"]
+    },
+    "analytics": {
+        "avg_monthly_spending": 2000, 
+        "purchase_frequency": 8,  
+        "preferred_partners": ["TechZone Electronics", "SportMax"],
+        "active_hours": "18:00-22:00",
+        "loyalty_score": 85
+    }
+  }
+}
